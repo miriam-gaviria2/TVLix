@@ -1,0 +1,60 @@
+.isLoading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vw;
+}
+
+.modal-content {
+  align-items: center !important;
+  margin-top: 8vw;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: rgb(53, 58, 64) !important;
+  color: white;
+  border: skyblue 2px solid;
+  opacity: 0.75;
+}
+
+.user-img {
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+}
+
+.imgLogin {
+  width: 10rem;
+  height: 10rem;
+}
+
+.form-group input {
+  height: 2.8rem;
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+  border-radius: 0.7rem;
+}
+
+.form-control:focus {
+  border: 4px solid skyblue;
+}
+
+.errorMessage {
+  margin-left: 0.75rem;
+  margin-top: -1rem;
+}
+
+.imgLoginWrapper {
+  position: relative;
+  top: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.buttonMargin {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.createButton {
+  margin-top: 0.3rem;
+}

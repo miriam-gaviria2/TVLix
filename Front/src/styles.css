@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'myFirstFont'; /*a name to be used later*/
+  src: url('./assets/fonts/NotoSans-Regular.ttf'); /*URL to font*/
+}
+
+body{
+  min-height: 66rem;
+  margin-bottom: 0;
+  background-color: #0d0d0d;
+  color: white !important;
+  font-family: myFirstFont;
+}
+
+.container-fluid{
+  margin-bottom: 10rem;
+}
+
+footer{
+  margin-top: 2rem;
+  position: fixed;
+  bottom:0px;
+  width: 100%;
+  z-index: 1000;
+}
+
+h2{
+  text-align: center;
+  margin-top: 2%;
+}
+
+.logo {
+  width: 2rem;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.centerContainer{
+  text-align: center;
+}
+
+/* Styles for error messages */
+.errorMessage{
+  font-style: italic;
+  font-size: 1rem;
+  color: skyblue;
+}
+
+.errorMessageEmail{
+  font-style: italic;
+  font-size: 0.9rem;
+  color: skyblue;
+  text-align: right;
+  margin-left: 0.4rem;
+}
+
+/* Styles for spinner */
+.d-flexSpinner{
+  position:absolute;
+  left:50%;
+  top:50%;
+}
+
+.spinner-grow{
+  vertical-align: middle;
+  width: 50rem;
+  height: 50rem;
+}
+
+/* Styles for buttons */
+.buttonContainer{
+  padding: 0.8rem 1.6rem !important;
+}
+
+.buttonStyle{
+  background: none !important;
+  color: skyblue!important;
+  border: 1px solid skyblue !important;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.buttonStyle:hover{
+  background-color: skyblue!important;
+  color: rgb(48, 48, 48)!important;
+  border: none!important;
+}
+
+.buttonStyle:active{
+  background-color: lightsteelblue!important;
+  color: rgb(48, 48, 48)!important;
+}
+
+.buttonStyle:visited{
+  background-color: lightsteelblue!important;
+  color: rgb(48, 48, 48)!important;
+  border: none!important;
+}
+
+/* cursosPointer */
+.cursorPointer{
+  cursor: pointer;
+}
+
+/* text ellipsis*/
+.text{
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* separatorLine tvShows lists */
+.separatorLine {
+  height: 0.1rem;
+  width: 50%;
+  margin-left: 0%;
+  background-color: skyblue;
+}

@@ -1,0 +1,109 @@
+.container-fluid {
+  width: 95%;
+}
+
+.tableContainer {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .table {
+    max-width: 18rem !important;
+    font-size: 0.7em;
+  }
+}
+
+th {
+  padding-left: 2rem !important;
+}
+
+td {
+  padding-left: 2rem !important;
+}
+
+.valignCenter {
+  vertical-align: middle;
+}
+
+.dateContainer {
+  width: 10% !important;
+}
+
+.rateContainer {
+  width: 18% !important;
+}
+
+@media (max-width: 768px) {
+  .rateContainer {
+    padding-right: 0% !important;
+    margin-right: 0% !important;
+  }
+}
+
+.rate {
+  width: 9.5rem !important;
+}
+
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.rate > label {
+  float: left;
+  width: 24px;
+  white-space: nowrap;
+  cursor: auto;
+  font-size: 30px;
+  margin-right: 3%;
+}
+
+@media (max-width: 768px) {
+  .rate {
+    width: 4rem;
+  }
+
+  .rate > label {
+    width: 20px;
+  }
+}
+
+.NotColored {
+  color: #cccccc;
+}
+
+.rate > label:before {
+  content: '★ ';
+}
+
+.colored {
+  color: skyblue;
+}
+
+.buttonContainer {
+  margin-top: 2rem;
+  margin-left: 45%;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination ::ng-deep .ngx-pagination .current {
+  background: skyblue;
+  color: black;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.pagination ::ng-deep .ngx-pagination a:hover,
+.ngx-pagination button:hover {
+  border-radius: 5px 5px 5px 5px;
+  background-color: rgb(9, 83, 112);
+  color: white;
+}
+
+.pagination ::ng-deep .ngx-pagination a,
+.ngx-pagination button {
+  color: white;
+}

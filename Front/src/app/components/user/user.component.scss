@@ -1,0 +1,50 @@
+.container-fluid {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.tableContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .table {
+    max-width: 18rem !important;
+    font-size: 0.8em;
+  }
+}
+
+td {
+  padding-left: 2rem !important;
+  width: 50%;
+}
+
+.field {
+  text-align: right;
+}
+
+.data {
+  font-weight: bold;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonContainer {
+  margin-top: 2rem;
+  width: 20%;
+}
+
+@media (max-width: 768px) {
+  .buttonContainer {
+    width: 6.5rem;
+    text-align: center;
+    font-size: smaller;
+  }
+}
