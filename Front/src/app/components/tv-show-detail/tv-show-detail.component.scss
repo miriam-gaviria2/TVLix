@@ -101,14 +101,11 @@
   align-items: center;
 }
 
-.titleButtonsSection {
-  padding-top: 2rem;
-}
-
 .buttonsContainer {
   display: flex;
   justify-content: space-around;
   text-align: center !important;
+  margin-top: 2rem;
   padding: 1rem;
   width: 60%;
 }
